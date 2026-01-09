@@ -26,6 +26,10 @@ on:
       COMMON_TREE_URL:
         description: 'COMMON_TREE_URL (if no common tree, leave blank)'
         required: false
+        DEVICE_TREE_BRANCH:
+        description: 'COMMON_TREE_BRANCH (if no common tree, leave blank)'
+        required: true
+        default: 't13'
       COMMON_PATH:
         description: 'COMMON_PATH (if no common tree, leave blank)'
         required: false
